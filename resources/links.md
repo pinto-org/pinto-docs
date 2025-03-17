@@ -1,0 +1,16 @@
+# Links
+
+* [Pinto Website](https://pinto.money)
+* [Pinto Whitepaper](https://pinto.money/pinto.pdf)
+* [Pinto GitHub](https://github.com/pinto-org/protocol)
+* [Pinto Discord](https://pinto.money/discord)
+* [Pinto X](https://x.com/pintodotmoney)
+* [Pinto Bot X](https://x.com/pintoseasons)
+* [Pinto Medium](https://medium.com/@pintodotmoney)
+* [Pinto Announcements Telegram](https://t.me/pintoannouncements)
+* [Pinto Bot Telegram](https://t.me/pintotracker)
+* [Pinto Seasons Bot Telegram](https://t.me/pintoseasons)
+* [Pinto Dune](https://dune.com/pintomoney/pinto)
+* [Pinto Exchange Website](https://pinto.exchange)
+* [Pinto Exchange Docs](https://docs.pinto.exchange/resources/links)
+* [Pinto Exchange Links](https://docs.pinto.exchange/resources/link)
