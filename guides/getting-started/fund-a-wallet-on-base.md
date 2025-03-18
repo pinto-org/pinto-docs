@@ -25,7 +25,7 @@ Here's how to fund a wallet using Rabby and Coinbase as an example, though the p
    1. A hardware wallet protects your assets even if your computer is hacked.
    2. The hardware wallet must be supported by Rabby - check the list provided by selecting 'I already have an address'.
 5. Never share your seed phrase - anyone who has it can steal your assets. Keep it offline in a secure location, as it's your only way to recover your wallet.
-6. To copy your wallet address on Base, open Rabby and select the copy icon: ![](<../../.gitbook/assets/image (1).png>)
+6. To copy your wallet address on Base, open Rabby and select the copy icon: ![](<../../.gitbook/assets/image (1) (1).png>)
 
 ### Creating a Wallet on Base with Rabby (Mobile)
 

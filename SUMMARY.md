@@ -52,6 +52,13 @@
   * [Send Tokens](guides/balances/send-tokens.md)
   * [Transferring Balances](guides/balances/transferring-balances.md)
 
+***
+
+* [sPinto](spinto/README.md)
+  * [Wrap/Unwrap sPinto](spinto/wrap-unwrap-spinto.md)
+  * [Borrow against sPinto on Cream Finance](spinto/borrow-against-spinto-on-cream-finance.md)
+  * [Trade sPinto yield on Spectra](spinto/trade-spinto-yield-on-spectra.md)
+
 ## advanced
 
 * [Stablecoin Overview](advanced/stablecoin-overview.md)
