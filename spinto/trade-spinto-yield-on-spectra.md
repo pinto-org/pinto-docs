@@ -42,7 +42,7 @@ Here is how to achieve this:
 
     <figure><img src="../.gitbook/assets/image (18).png" alt="" width="375"><figcaption></figcaption></figure>
 * Click on "Fix Rate" and sign the transaction in your wallet.
-* You have now successfully "fixed" sPinto yield for a period of time. You will be able to redeem your PT for sPinto at maturity.&#x20;
+* You have now successfully "fixed" sPinto yield for a period of time. You will be able to redeem your PT for Pinto at maturity.
 * If you wish to redeem earlier, you''ll have to sell your PT for regular sPinto in the liquidity pool. To do so, you just need to click on "Exit Position" on the same page. Note that you may incur slippage from trading when performing that action.
 
 ### Get leveraged sPinto yield exposure
