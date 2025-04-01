@@ -7,10 +7,8 @@ coverY: 0
 
 [Pinto](https://pinto.money) is low volatility money built on [Base](https://www.base.org/).
 
-* [Announcement article](https://medium.com/@pintodotmoney/gm-7a97943c0336)
+* [Announcement article](https://mirror.xyz/0xEA13D1fB14934E41Ee7074198af8F089a6d956B5/V3m5m2h4Lx3Kq_Rwf4tyPXRpus_clTnkOyNxfYAwAsU)
 * [Whitepaper](https://pinto.money/pinto.pdf)
-
-Announcement article:
 
 Pinto's primary objective is to incentivize independent market participants to regularly cross the price of 1 Pinto over its 1 Dollar peg in a sustainable fashion.
 
