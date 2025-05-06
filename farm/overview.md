@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/R08upbBsoLcyUPBVPoSgf.jpeg
+coverY: 204
+---
+
 # Overview
 
 The Farm contains the Pinto ecosystem. Anyone can become a Farmer by interacting with Pinto.

@@ -1,14 +1,13 @@
 # Table of contents
 
 * [Pinto](README.md)
-* [Disclosures](disclosures.md)
 * [Whitepaper](https://pinto.money/pinto.pdf)
 
 ## intro
 
 * [Announcing Pinto](https://medium.com/@pintodotmoney/gm-7a97943c0336)
 
-## farm
+## Farm
 
 * [Overview](farm/overview.md)
 * [Sun](farm/sun.md)
@@ -73,10 +72,12 @@
 * [Old Beanstalk Holders](appendix/old-beanstalk-holders.md)
 * [Upgradability](appendix/upgradability.md)
 * [Whitelist Info](appendix/whitelist-info.md)
+* [Improvements](appendix/improvements.md)
 
 ## Resources
 
 * [Contracts](resources/contracts.md)
 * [Glossary](resources/glossary.md)
 * [Audits](resources/audits.md)
+* [Disclosures](resources/disclosures.md)
 * [Links](resources/links.md)

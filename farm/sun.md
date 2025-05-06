@@ -6,7 +6,7 @@ description: The Pinto timekeeping mechanism.
 
 The Pinto peg maintenance mechanism requires a protocol-native timekeeping mechanism and regular code execution on Base. Pinto keeps time in Seasons.&#x20;
 
-The Sun incentivizes calling of the gm function to increment the Season and execute code in a timely and cost-efficient fashion.
+The Sun incentivizes calling of the gm function to increment the Season counter and execute code in a timely and cost-efficient fashion.
 
 ### Time
 
@@ -16,7 +16,7 @@ The first transaction that successfully calls the gm function after the top of e
 
 ### Code Execution
 
-Pinto adjusts itself at the beginning of every Season in an effort to regularly oscillate the Pinto price across its value peg, Because Pinto cannot autonomously submit a transaction to do so, it requires someone else to call the gm function which triggers execution of the code that performs the adjustments.
+Pinto adjusts itself at the beginning of every Season in an effort to regularly oscillate the Pinto price across its value peg. Because Pinto cannot autonomously submit a transaction to do so, it requires someone else to call the gm function which triggers execution of the code that performs the adjustments.
 
 Pinto covers the cost of calling the gm function by awarding the sender of an accepted gm function call with newly minted Pinto. To encourage regular gm function calls even during periods of congestion on Base while minimizing cost, the award for successfully calling the gm function starts at 1 Pinto and compounds 1.0201% every additional 2 seconds for 300 seconds.
 
@@ -36,7 +36,7 @@ Upon acceptance of the gm function call, the Sun:
 
 ### Minting Whitelist <a href="#minting-whitelist" id="minting-whitelist"></a>
 
-A liquidity pool must be on the Minting Whitelist to be included in the calculation of TWA deltaP.&#x20;
+A liquidity pool must be on the Minting Whitelist to be included in the calculation of TWA∆P.&#x20;
 
 In order for a liquidity pool to be on the Minting Whitelist, Pinto requires:
 

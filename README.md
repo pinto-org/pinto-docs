@@ -5,14 +5,14 @@ coverY: 0
 
 # Pinto
 
-[Pinto](https://pinto.money) is low volatility money built on [Base](https://www.base.org/).
+[Pinto](https://pinto.money) is low-volatility money with a $1 price target.
 
 * [Announcement article](https://mirror.xyz/0xEA13D1fB14934E41Ee7074198af8F089a6d956B5/V3m5m2h4Lx3Kq_Rwf4tyPXRpus_clTnkOyNxfYAwAsU)
 * [Whitepaper](https://pinto.money/pinto.pdf)
 
 Pinto's primary objective is to incentivize independent market participants to regularly cross the price of 1 Pinto over its 1 Dollar peg in a sustainable fashion.
 
-Pinto is an experiment. Before interacting with Pinto, consider reading the [Disclosures](disclosures.md).
+Pinto is an experiment. Before interacting with Pinto, consider reading the [Disclosures](resources/disclosures.md).
 
 ### Links <a href="#links" id="links"></a>
 
