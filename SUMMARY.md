@@ -14,18 +14,18 @@
 * [Silo](farm/silo.md)
 * [Field](farm/field.md)
 * [Toolshed](farm/toolshed/README.md)
-  * [Farm Balances](farm/toolshed/farm-balances.md)
-  * [Depot](farm/toolshed/depot.md)
-  * [Tractor](farm/toolshed/tractor.md)
   * [Pod Market](farm/toolshed/pod-market.md)
+  * [Depot](farm/toolshed/depot.md)
+  * [Farm Balances](farm/toolshed/farm-balances.md)
+  * [Tractor](farm/toolshed/tractor.md)
 
-## Peg Maintenance
+## Target Maintenance
 
-* [Overview](peg-maintenance/overview.md)
-* [Temperature](peg-maintenance/temperature.md)
-* [Crop Ratio](peg-maintenance/crop-ratio.md)
-* [Flood](peg-maintenance/flood.md)
-* [Convert](peg-maintenance/convert.md)
+* [Overview](target-maintenance/overview.md)
+* [Temperature](target-maintenance/temperature.md)
+* [Crop Ratio](target-maintenance/crop-ratio.md)
+* [Flood](target-maintenance/flood.md)
+* [Convert](target-maintenance/convert.md)
 
 ## Guides
 
@@ -63,7 +63,7 @@
 * [Stablecoin Overview](advanced/stablecoin-overview.md)
 * [Types of Stablecoins](advanced/types-of-stablecoins.md)
 * [Economics](advanced/economics.md)
-* [Gauge System](advanced/gauge-system.md)
+* [Seed Gauge System](advanced/seed-gauge-system.md)
 * [Cases](advanced/cases.md)
 
 ## Appendix
@@ -71,13 +71,11 @@
 * [sPinto](appendix/spinto.md)
 * [Old Beanstalk Holders](appendix/old-beanstalk-holders.md)
 * [Upgradability](appendix/upgradability.md)
-* [Whitelist Info](appendix/whitelist-info.md)
-* [Improvements](appendix/improvements.md)
 
 ## Resources
 
 * [Contracts](resources/contracts.md)
 * [Glossary](resources/glossary.md)
 * [Audits](resources/audits.md)
-* [Disclosures](resources/disclosures.md)
+* [Disclosures](disclosures.md)
 * [Links](resources/links.md)

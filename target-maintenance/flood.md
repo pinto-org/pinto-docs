@@ -1,6 +1,6 @@
 # Flood
 
-The Pinto protocol sells newly minted Pinto on the open market during long run increases in demand for Pinto when [increasing the Pinto supply](overview.md#bean-supply), [lowering the Maximum Temperature](temperature.md) and [lowering the Crop Ratio](crop-ratio.md) have not crossed the Pinto price over its peg.
+The Pinto protocol sells newly minted Pinto on the open market during long run increases in demand for Pinto when [increasing the Pinto supply](overview.md#bean-supply), [lowering the Maximum Temperature](temperature.md) and [lowering the Crop Ratio](crop-ratio.md) have not crossed the Pinto price over its value target.
 
 At the beginning of a [Season](../farm/sun.md) where TWA∆P > 0 and [Pod Rate](overview.md#debt-level) < 3% (Excessively Low), it is Raining. At the beginning of a Season in which it Rains, the [Crop Ratio](crop-ratio.md) is set to 33.33%. If at the beginning of a Season it continues to Rain and the cumulative ∆P > 0, it Floods.
 
@@ -12,7 +12,7 @@ In total, during a gm call in which it Floods, the following Pinto are minted:
 
 1. Cumulative ∆P at the end of the previous Season, which are minted and sold directly in pools on the Flood Whitelist;
 2. Up to 0.1% of the Pinto supply worth of Pods;
-3. TWA∆P per the [peg maintenance mechanism](overview.md) (as with non-Flood gm calls); and
+3. TWA∆P per the [target maintenance mechanism](overview.md) (as with non-Flood gm calls); and
 4. The gm reward (as with non-Flood gm calls).
 
 Proceeds from the sale are distributed to Stalkholders at the beginning of Season in proportion to their Stalk holdings when it began to Rain (i.e., **Stalk minted after it began to Rain does not contribute towards ownership of the Flood proceeds**).&#x20;

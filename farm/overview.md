@@ -1,6 +1,6 @@
 ---
-cover: ../.gitbook/assets/R08upbBsoLcyUPBVPoSgf.jpeg
-coverY: 204
+cover: ../.gitbook/assets/bg.jpeg
+coverY: -90
 ---
 
 # Overview
@@ -15,4 +15,4 @@ The [Silo](silo.md) offers passive yield opportunities to Farmers for Depositing
 
 The [Field](field.md) offers yield opportunities to Farmers for lending Pinto to the protocol. The Field uses a FIFO payment schedule and Dutch auction to create the optimal conditions for the protocol to borrow.
 
-The [Toolshed](toolshed/) offers a suite of tools to Farmers for efficient use of Pinto and other protocols on Base. Nothing in the Toolshed is directly related to peg maintenance.&#x20;
+The [Toolshed](toolshed/) offers a suite of tools to Farmers for efficient use of Pinto and other protocols on Base. Nothing in the Toolshed is directly related to target maintenance.&#x20;

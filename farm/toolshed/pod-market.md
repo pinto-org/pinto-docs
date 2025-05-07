@@ -1,6 +1,6 @@
 # Pod Market
 
-[Pods](../field.md#pods) can be bought and sold in a decentralized, trustless fashion on the Market. The Market creates liquidity for Pods through an onchain order book.
+The Pod Market is a peer-to-peer marketplace that allows [Pods](../field.md#pods) to be bought and sold in a trustless fashion without trading fees. The Pod Market creates liquidity for Pods through an onchain order book.
 
 Sellers can list Pods or fill open Pod Orders placed by buyers.
 

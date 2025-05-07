@@ -4,7 +4,7 @@ description: The Pinto timekeeping mechanism.
 
 # Sun
 
-The Pinto peg maintenance mechanism requires a protocol-native timekeeping mechanism and regular code execution on Base. Pinto keeps time in Seasons.&#x20;
+The Pinto target maintenance mechanism requires a protocol-native timekeeping mechanism and regular code execution on Base. Pinto keeps time in Seasons.&#x20;
 
 The Sun incentivizes calling of the gm function to increment the Season counter and execute code in a timely and cost-efficient fashion.
 
@@ -16,7 +16,7 @@ The first transaction that successfully calls the gm function after the top of e
 
 ### Code Execution
 
-Pinto adjusts itself at the beginning of every Season in an effort to regularly oscillate the Pinto price across its value peg. Because Pinto cannot autonomously submit a transaction to do so, it requires someone else to call the gm function which triggers execution of the code that performs the adjustments.
+Pinto adjusts itself at the beginning of every Season in an effort to regularly oscillate the Pinto price across its target. Because Pinto cannot autonomously submit a transaction to do so, it requires someone else to call the gm function which triggers execution of the code that performs the adjustments.
 
 Pinto covers the cost of calling the gm function by awarding the sender of an accepted gm function call with newly minted Pinto. To encourage regular gm function calls even during periods of congestion on Base while minimizing cost, the award for successfully calling the gm function starts at 1 Pinto and compounds 1.0201% every additional 2 seconds for 300 seconds.
 
@@ -24,14 +24,14 @@ Upon acceptance of the gm function call, the Sun:
 
 1. Increments the Season counter;
 2. Calculates TWA∆P, the sum of the time weighted average shortages or excesses of Pinto across liquidity pools on the [Minting Whitelist](sun.md#minting-whitelist) (see below);
-3. Updates the [Maximum Temperature](../peg-maintenance/temperature.md);
-4. Updates the [Crop Ratio](../peg-maintenance/crop-ratio.md);
-5. Updates the [Gauge Points](../advanced/gauge-system.md#gauge-points);
+3. Updates the [Maximum Temperature](../target-maintenance/temperature.md);
+4. Updates the [Crop Ratio](../target-maintenance/crop-ratio.md);
+5. Updates the [Gauge Points](../advanced/seed-gauge-system.md#gauge-points);
 6. Updates the [Silo](silo.md) to issue Grown Stalk from Seeds;
-7. Starts or stops the [Rain](../peg-maintenance/flood.md), if applicable;
-8. Starts or stops a [Flood](../peg-maintenance/flood.md), if applicable;
-9. Sets the [Soil supply](../peg-maintenance/overview.md#soil-supply);
-10. [Mints Pinto](../peg-maintenance/overview.md#bean-supply) based on the TWA∆P to the appropriate [Shipping Routes](sun.md#shipments) (defined below); and
+7. Starts or stops the [Rain](../target-maintenance/flood.md), if applicable;
+8. Starts or stops a [Flood](../target-maintenance/flood.md), if applicable;
+9. Sets the [Soil supply](../target-maintenance/overview.md#soil-supply);
+10. [Mints Pinto](../target-maintenance/overview.md#bean-supply) based on TWA∆P to the appropriate [Shipping Routes](sun.md#shipments) (defined below); and
 11. Awards Pinto to the address that successfully called the gm function.
 
 ### Minting Whitelist <a href="#minting-whitelist" id="minting-whitelist"></a>
@@ -49,7 +49,7 @@ In order for a liquidity pool to be on the Minting Whitelist, Pinto requires:
 
 ### Shipping Routes
 
-Shipping Routes determine how Pinto mints based on TWA∆P are distributed to different components of the system. Mints for the gm reward and Flood are distributed independent of Shipping Routes.
+Shipping Routes determine how Pinto mints based on TWA∆P are distributed to different components of the system. Mints for the gm reward and [Flood](../target-maintenance/flood.md) are distributed independent of Shipping Routes.
 
 If Pinto allocated to a particular Shipping Route exceed the maximum Pinto that Shipping Route can handle (_i.e._, there are no more Unharvestable Pods in the Field), the excess Pinto are distributed to the other Shipping Routes in proportion to their allocations. The Silo Shipping Route can handle an infinite number of Pinto mints per Season.
 

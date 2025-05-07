@@ -1,12 +1,20 @@
 # Glossary
 
+#### **Blight Factor** <a href="#convert" id="convert"></a>
+
+The value adjusted by a gauge that changes the Mown Stalk penalty for Converting Deposited to Deposited LP tokens. Read more [here](https://pinto.money/pinto.pdf#subsubsection.12.3.2).
+
 #### **Convert** <a href="#convert" id="convert"></a>
 
-Changing one Deposited asset for another within the [Silo](../farm/silo.md). Read more [here](../peg-maintenance/convert.md).
+Changing one Deposited asset for another within the [Silo](../farm/silo.md). Read more [here](../target-maintenance/convert.md).
 
 #### Crop Ratio <a href="#crop-ratio" id="crop-ratio"></a>
 
-Determines the relative benefits of holding Pinto exposure vs exposure to the LP token with the most Seeds in the Silo over time. More specifically, the ratio of [Seed](glossary.md#seeds) rewards between Pinto and the LP token with the highest [Gauge Points](glossary.md#gauge-points) per [PDV](glossary.md#pinto-denominated-value). Adjusted via the [Gauge System](glossary.md#seed-gauge-system). Read more [here](../peg-maintenance/crop-ratio.md).
+Determines the relative benefits of holding Pinto exposure vs exposure to the LP token with the most Seeds in the Silo over time. More specifically, the ratio of [Seed](glossary.md#seeds) rewards between Pinto and the LP token with the highest [Gauge Points](glossary.md#gauge-points) per [PDV](glossary.md#pinto-denominated-value). Adjusted via the [Gauge System](glossary.md#seed-gauge-system). Read more [here](../target-maintenance/crop-ratio.md).
+
+#### Cultivation Factor
+
+The value adjusted by a gauge that causes the Soil issued to increase as Pinto is Sown into all Soil, and decrease otherwise. Read more [here](https://pinto.money/pinto.pdf#subsubsection.12.3.1).
 
 #### **deltaP (**∆&#x50;**)** <a href="#deltap" id="deltap"></a>
 
@@ -58,11 +66,11 @@ First in, first out. [Pods](glossary.md#pods) become [Harvestable](glossary.md#h
 
 #### **Flood** <a href="#flood" id="flood"></a>
 
-If it is [Raining](glossary.md#rain) and the [Pod Rate](glossary.md#pod-rate) is less than 3% (Excessively Low), at gm there is a Flood. At the beginning of a Season where it Floods, additional Pinto are minted and sold directly into pools on the [Flood Whitelist](glossary.md#flood-whitelist). Read more [here](../peg-maintenance/flood.md).
+If it is [Raining](glossary.md#rain) and the [Pod Rate](glossary.md#pod-rate) is less than 3% (Excessively Low), at gm there is a Flood. At the beginning of a Season where it Floods, additional Pinto are minted and sold directly into pools on the [Flood Whitelist](glossary.md#flood-whitelist). Read more [here](../target-maintenance/flood.md).
 
 #### Flood Whitelist
 
-The whitelist of liquidity pools that the protocol evaluates whether to sell Pinto into or not during a [Flood](glossary.md#flood). Read more [here](../peg-maintenance/flood.md#current-flood-whitelist).
+The whitelist of liquidity pools that the protocol evaluates whether to sell Pinto into or not during a [Flood](glossary.md#flood). Read more [here](../target-maintenance/flood.md#current-flood-whitelist).
 
 #### Gauge Points <a href="#gauge-points" id="gauge-points"></a>
 
@@ -88,9 +96,9 @@ Redeem Harvestable Pods for 1 Pinto each.
 
 [Pods](glossary.md#pods) that are redeemable for 1 Pinto each. Harvestable Pods must be Harvested in order to use them.
 
-#### Liquidity to Supply Ratio (L2SR) <a href="#liquidity-to-supply-ratio-l2sr" id="liquidity-to-supply-ratio-l2sr"></a>
+#### Liquidity Rate (f.k.a. Liquidity to Supply Ratio or L2SR) <a href="#liquidity-to-supply-ratio-l2sr" id="liquidity-to-supply-ratio-l2sr"></a>
 
-Represents the the Pinto liquidity level relative to the Pinto supply. The L2SR is a useful indicator of the protocol's health. Read more [here](../peg-maintenance/overview.md#liquidity-level).
+Represents the the Pinto liquidity level relative to the Pinto supply. The Liquidity Rate is a useful indicator of the protocol's health. Read more [here](../target-maintenance/overview.md#liquidity-level).
 
 #### Liquidity Weight <a href="#liquidity-weight" id="liquidity-weight"></a>
 
@@ -98,7 +106,7 @@ The portion of liquidity in a whitelisted liquidity pool that counts towards the
 
 #### Maximum Temperature <a href="#maximum-temperature" id="maximum-temperature"></a>
 
-The maximum [Temperature](glossary.md#temperature) the protocol is willing to offer during a [Season](glossary.md#season). Read more [here](../peg-maintenance/temperature.md).
+The maximum [Temperature](glossary.md#temperature) the protocol is willing to offer during a [Season](glossary.md#season). Read more [here](../target-maintenance/temperature.md).
 
 #### Minting Whitelist <a href="#minting-whitelist" id="minting-whitelist"></a>
 
@@ -158,7 +166,7 @@ An order to buy [Pods](glossary.md#pods) on the [Pod Market](../farm/toolshed/po
 
 #### **Pod Rate** <a href="#pod-rate" id="pod-rate"></a>
 
-The protocol debt level (Pod supply) relative to the Pinto supply. The Pod Rate is often used as a proxy for the protocol's health. Read more [here](../peg-maintenance/overview.md#debt-level).
+The protocol debt level (Pod supply) relative to the Pinto supply. The Pod Rate is often used as a proxy for the protocol's health. Read more [here](../target-maintenance/overview.md#debt-level).
 
 #### **Pods** <a href="#pods" id="pods"></a>
 
@@ -174,7 +182,7 @@ Seasons are Pinto-native time. Every Season is approximately 1 hour. Each Season
 
 #### Gauge System <a href="#seed-gauge-system" id="seed-gauge-system"></a>
 
-The component of the [Silo](glossary.md#silo) responsible for dynamically adjusting the [Seed](glossary.md#seeds) rewards for different assets whitelisted in the Silo. Read more [here](../advanced/gauge-system.md).
+The component of the [Silo](glossary.md#silo) responsible for dynamically adjusting the [Seed](glossary.md#seeds) rewards for different assets whitelisted in the Silo. Read more [here](../advanced/seed-gauge-system.md).
 
 #### **Seeds** <a href="#seeds" id="seeds"></a>
 
@@ -206,7 +214,7 @@ The component of the [Farm](glossary.md#farm) that keeps time in [Seasons](gloss
 
 #### Target Seasons to Catch Up <a href="#target-seasons-to-catch-up" id="target-seasons-to-catch-up"></a>
 
-Determines the target number of [Seasons](glossary.md#season) for a new [Deposit](glossary.md#deposit) with an average number of [Seeds](glossary.md#seeds) to catch up to the average [Grown Stalk](glossary.md#grown-stalk) per [PDV](glossary.md#bean-denominated-value) of existing Deposits at the time of Deposit. Read more [here](../advanced/gauge-system.md).
+Determines the target number of [Seasons](glossary.md#season) for a new [Deposit](glossary.md#deposit) with an average number of [Seeds](glossary.md#seeds) to catch up to the average [Grown Stalk](glossary.md#grown-stalk) per [PDV](glossary.md#bean-denominated-value) of existing Deposits at the time of Deposit. Read more [here](../advanced/seed-gauge-system.md).
 
 #### **Temperature** <a href="#temperature" id="temperature"></a>
 

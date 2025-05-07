@@ -2,6 +2,7 @@
 
 * [Pinto Website](https://pinto.money)
 * [Pinto Whitepaper](https://pinto.money/pinto.pdf)
+* [Pinto Mirror (articles)](https://mirror.xyz/0xEA13D1fB14934E41Ee7074198af8F089a6d956B5)
 * [Pinto GitHub](https://github.com/pinto-org/protocol)
 * [Pinto Discord](https://pinto.money/discord)
 * [Pinto X](https://x.com/pintodotmoney)

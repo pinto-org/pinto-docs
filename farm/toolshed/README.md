@@ -1,8 +1,9 @@
 # Toolshed
 
-The Toolshed offers a suite of tools for efficient use of Pinto and other protocols on Base.
+The Toolshed offers a suite of tools that decrease friction to using the protocol and participating in\
+target maintenance.
 
-* [Farm Balances](farm-balances.md)
-* [Depot](depot.md)
-* [Tractor](tractor.md)
 * [Pod Market](pod-market.md)
+* [Depot](depot.md)
+* [Farm Balances](farm-balances.md)
+* [Tractor](tractor.md)

@@ -1,11 +1,11 @@
-# Gauge System
+# Seed Gauge System
 
 Seeds generate opportunity cost for Withdrawing assets that have been Deposited in the [Silo](../farm/silo.md) for longer and marginal benefit for holding particular assets in the Silo in the form of Grown Stalk. The Gauge System adjusts the Seeds per PDV (Pinto Denominated Value) reward for holding different Deposited tokens in the Silo.
 
 There are 3 primary tools that Pinto has at its disposal as a result of the Gauge System:
 
-1. [The Target Seasons to Catch Up](gauge-system.md#grown-stalk-inflation-rate), which determines the target number of Seasons for a new Deposit with an average number of Seeds to catch up to the average Grown Stalk per PDV of existing Deposits (at the time of Deposit);
-2. Pinto vs LP Seed distribution, or more specifically, the [Crop Ratio](../peg-maintenance/crop-ratio.md), which determines the relative benefits of holding Pinto exposure vs exposure to the LP token with the most Seeds in the Silo over time; and
+1. [The Target Seasons to Catch Up](seed-gauge-system.md#grown-stalk-inflation-rate), which determines the target number of Seasons for a new Deposit with an average number of Seeds to catch up to the average Grown Stalk per PDV of existing Deposits (at the time of Deposit);
+2. Pinto vs LP Seed distribution, or more specifically, the [Crop Ratio](../target-maintenance/crop-ratio.md), which determines the relative benefits of holding Pinto exposure vs exposure to the LP token with the most Seeds in the Silo over time; and
 3. LP vs LP Seed distribution, which determines relative benefits of holding a given non-Pinto asset in the Silo over time.
 
 #### Grown Stalk Inflation Rate <a href="#grown-stalk-inflation-rate" id="grown-stalk-inflation-rate"></a>
@@ -34,4 +34,4 @@ See the [Pinto Dune](https://dune.com/pintomoney/pinto) to view the current vs. 
 
 Gauge Points per PDV is the amount of Gauge Points allocated to a whitelisted LP token divided by the total PDV of that LP token Deposited in the Silo. The whitelisted LP token with the largest Gauge Points per PDV is used to determine the distribution of Grown Stalk to Pinto in the Silo in order to ensure that at least 1 LP token always receives at least as much Grown Stalk as Deposited Pinto. Ensuring that 1 whitelisted LP token (_i.e._, the LP token with the highest Gauge Points per PDV) is always allocated at least as many Seeds as Pinto ensures that the protocol never incentivizes holding Pinto over providing liquidity.
 
-See [Crop Ratio](../peg-maintenance/crop-ratio.md) for more info.
+See [Crop Ratio](../target-maintenance/crop-ratio.md) for more info.
