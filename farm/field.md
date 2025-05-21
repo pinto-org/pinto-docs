@@ -50,6 +50,6 @@ The protocol [changes the Maximum Temperature](../target-maintenance/temperature
 
 Pinto is credit based and only fails if it can no longer attract creditors. A reasonable level of debt, a strong credit history and a competitive interest rate attract creditors.
 
-Pinto never defaults on debt (although in the event of Pinto no longer attracting creditors, the loan maturity date would become infinitely far in the future—see [Disclosures](../disclosures.md#no-lender-of-last-resort)). The protocol is willing to issue Pods every Season.
+Pinto never defaults on debt (although in the event of Pinto no longer attracting creditors, the loan maturity date would become infinitely far in the future—see [Disclosures](../resources/terms.md#no-lender-of-last-resort)). The protocol is willing to issue Pods every Season.
 
 The combination of non-expiry, the FIFO Harvest schedule and transferability encourages Farmers to Sow Pinto as efficiently as possible. By maximizing the efficiency of the Soil market, the protocol minimizes its cost to attract creditors, the durations and magnitudes of price deviations below its value target, and excess Pinto minting.

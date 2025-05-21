@@ -1,4 +1,4 @@
-# Disclosures
+# Terms
 
 This document is kept up to date, but a version was uploaded to Arweave prior to the deployment of Pinto [here](https://arweave.net/AZYRdhsRn8FPacI2kh4fw75NeoCmavZ0F4yq0HX2r08).
 
@@ -10,30 +10,30 @@ Pinto is an experiment and interacting with it involves many risks. Before inter
 
 Pinto was inspired by [Beanstalk](https://bean.money). The performance of Beanstalk and other algorithmic stablecoin\
 implementations provided invaluable information that influenced the design of Pinto. A significant\
-portion of the Pinto codebase was forked from the Beanstalk codebase. Ultimately, this means that the  target maintenance mechanism and implementation of Pinto closely resemble those of Beanstalk. Both the Pinto and Beanstalk target maintenance mechanisms are experiments and have many risks (see [#4](disclosures.md#no-lender-of-last-resort), [#5](disclosures.md#no-price-guarantee) and [#6](disclosures.md#no-maturity-date-risk)).
+portion of the Pinto codebase was forked from the Beanstalk codebase. Ultimately, this means that the  target maintenance mechanism and implementation of Pinto closely resemble those of Beanstalk. Both the Pinto and Beanstalk target maintenance mechanisms are experiments and have many risks (see [#4](terms.md#no-lender-of-last-resort), [#5](terms.md#no-price-guarantee) and [#6](terms.md#no-maturity-date-risk)).
 
-A non-exhaustive list of the contract changes made to Pinto since the most recent version of Beanstalk are documented [here](resources/audits.md).
+A non-exhaustive list of the contract changes made to Pinto since the most recent version of Beanstalk are documented [here](audits.md).
 
 #### **2. THERE IS NO MAXIMUM PINTO SUPPLY. THE PINTO SUPPLY CAN GROW INFINITELY THROUGH DEMAND-BASED AND ONE-OFF MINTING.** <a href="#no-maximum-supply" id="no-maximum-supply"></a>
 
-The Pinto supply increases every Season where the liquidity and time weighted average price of 1 Pinto is greater than $1 over the previous Season. Enough Pinto are minted such that if all the newly minted Pinto were sold, the price would return to $1 (with the exception of mints related to the [gm reward](disclosures.md#gm-incentivization-risk) and [Flood](target-maintenance/flood.md)). The distribution of new Pinto is documented [here](farm/sun.md#shipments).
+The Pinto supply increases every Season where the liquidity and time weighted average price of 1 Pinto is greater than $1 over the previous Season. Enough Pinto are minted such that if all the newly minted Pinto were sold, the price would return to $1 (with the exception of mints related to the [gm reward](terms.md#gm-incentivization-risk) and [Flood](../target-maintenance/flood.md)). The distribution of new Pinto is documented [here](../farm/sun.md#shipments).
 
-The Pinto supply is uncapped and grows as demand for Pinto increases. Pinto can also be minted arbitrarily in a one-off fashion (see [#3](disclosures.md#no-pre-mine)).
+The Pinto supply is uncapped and grows as demand for Pinto increases. Pinto can also be minted arbitrarily in a one-off fashion (see [#3](terms.md#no-pre-mine)).
 
 More information:
 
-* [Pinto Mint Distribution](farm/sun.md#shipping-routes)
-* [Pinto Supply Documentation](target-maintenance/overview.md#bean-supply)
+* [Pinto Mint Distribution](../farm/sun.md#shipping-routes)
+* [Pinto Supply Documentation](../target-maintenance/overview.md#bean-supply)
 
 #### **3. PINTO DID NOT HAVE A PRE-MINE OR PRE-SALE. ALL PINTO HAVE BEEN MINTED IN ACCORDANCE WITH EITHER THE MINTING SCHEDULE OR ONE-OFF MINTS PERMITTED IN THE UPGRADABILITY DOCS.** <a href="#no-pre-mine" id="no-pre-mine"></a>
 
 Pinto did not have a pre-mine or pre-sale of any kind. The first 1000 Pinto were minted when the `init` function was called to deploy the protocol. Pinto launched without the need to raise capital.&#x20;
 
-Apart from demand-based minting, Pinto can also be minted in a one-off fashion according to the permitted upgrades in the [Upgradability](appendix/upgradability.md) docs.
+Apart from demand-based minting, Pinto can also be minted in a one-off fashion according to the permitted upgrades in the [Upgradability](../appendix/upgradability.md) docs.
 
 More information:
 
-* [Permitted Pinto Upgrades](appendix/upgradability.md)
+* [Permitted Pinto Upgrades](../appendix/upgradability.md)
 
 #### **4. PINTO RELIES ON THIRD PARTIES TO PROVIDE CREDIT TO RETURN THE PINTO PRICE TO ITS VALUE TARGET. THERE IS NO LENDER OF LAST RESORT.** <a href="#no-lender-of-last-resort" id="no-lender-of-last-resort"></a>
 
@@ -41,35 +41,35 @@ Pinto uses a credit based model, allowing anyone to lend Pinto to the protocol t
 
 More information:
 
-* [Field Documentation](farm/field.md)
+* [Field Documentation](../farm/field.md)
 
 #### **5. THE PROTOCOL DOES NOT GUARANTEE THE PINTO PRICE. INSTEAD THE PROTOCOL INCENTIVIZES THE REGULAR OSCILLATION OF THE PINTO PRICE ABOVE AND BELOW ITS VALUE TARGET THROUGH PROTOCOL-NATIVE INCENTIVES.** <a href="#no-price-guarantee" id="no-price-guarantee"></a>
 
-Pinto is not collateralized and the protocol offers no guarantee of the value of Pinto. Pinto is in an early stage and various parts of its economic design will continue to be improved through forks (see [Fork Migration System](appendix/upgradability.md#fork-migration-system)).
+Pinto is not collateralized and the protocol offers no guarantee of the value of Pinto. Pinto is in an early stage and various parts of its economic design will continue to be improved through forks (see [Fork Migration System](../appendix/upgradability.md#fork-migration-system)).
 
 The protocol tries to incentivize the regular oscillation of the Pinto price above and below its target. While the protocol's incentives are designed to return the price of Pinto to its target, the timing of oscillations is indeterminate. The price will almost never be exactly equal to its value target. Crossing the target in the past is no guarantee of it happening again in the future.
 
 More information:
 
-* [Target Maintenance Documentation](target-maintenance/overview.md)
+* [Target Maintenance Documentation](../target-maintenance/overview.md)
 
 #### **6. PINTO-NATIVE DEBT DOES NOT HAVE A MATURITY DATE AND THEREFORE MAY NEVER BECOME REDEEMABLE FOR PINTO.** <a href="#no-maturity-date-risk" id="no-maturity-date-risk"></a>
 
 The protocol borrows Pinto from lenders in exchange for Pods. Pinto loans have fixed interest rates but do not have fixed maturity dates.
 
-Pods are repaid when the time weighted average price of 1 Pinto is greater than $1 over the previous Season, but there is no guarantee this will continue until all Pods become redeemable (see [#4](disclosures.md#no-lender-of-last-resort)).
+Pods are repaid when the time weighted average price of 1 Pinto is greater than $1 over the previous Season, but there is no guarantee this will continue until all Pods become redeemable (see [#4](terms.md#no-lender-of-last-resort)).
 
 More information:
 
-* [Economics Documentation](advanced/economics.md)
+* [Economics Documentation](../advanced/economics.md)
 
 #### **7. THE PINTO CONTRACT IS OWNED BY THE PINTO CONTRACT MULTISIG. THE MULTISIG CAN MAKE ARBITRARY CHANGES TO PINTO WITH 5-OF-9 SIGNATURES FROM THE ANONYMOUS SIGNERS. THERE IS NO GUARANTEE THE MULTISIG SOLELY ENACTS THE UPGRADES PERMITTED IN THE UPGRADABILITY DOCS.** <a href="#multisig-risk" id="multisig-risk"></a>
 
-Ownership of the Pinto contract is held by a 5-of-9 multisig known as the Pinto Contract Multisig (PCM). There is no guarantee the PCM solely enacts the upgrades permitted in the [Upgradability docs](appendix/upgradability.md).&#x20;
+Ownership of the Pinto contract is held by a 5-of-9 multisig known as the Pinto Contract Multisig (PCM). There is no guarantee the PCM solely enacts the upgrades permitted in the [Upgradability docs](../appendix/upgradability.md).&#x20;
 
 More information:
 
-* [Permitted Pinto Upgrades](appendix/upgradability.md)
+* [Permitted Pinto Upgrades](../appendix/upgradability.md)
 
 #### **8. A VULNERABILITY IN ETHEREUM OR BASE COULD RESULT IN A LOSS OF FUNDS. PINTO ASSUMES THE SECURITY OF ETHEREUM AND BASE.** <a href="#network-risk" id="network-risk"></a>
 
@@ -92,7 +92,7 @@ Pipeline has been [audited](https://github.com/BeanstalkFarms/Beanstalk-Audits?t
 More information:
 
 * [Pipeline Whitepaper](https://evmpipeline.org/pipeline.pdf)
-* [Depot Documentation](farm/toolshed/depot.md)
+* [Depot Documentation](../farm/toolshed/depot.md)
 
 #### **11. THE PINTO PRICE IS DERIVED FROM THE VALUE OF ASSETS IT TRADES AGAINST IN DECENTRALIZED AMMS. THERE IS NO GUARANTEE ANY OF THESE ASSETS RETAIN VALUE.** <a href="#non-pinto-asset-risk" id="non-pinto-asset-risk"></a>
 
@@ -108,7 +108,7 @@ Pinto's core objective is to oscillate the price of a Pinto above and below its 
 
 More information:
 
-* [Price Oracle Documentation](target-maintenance/overview.md#decentralized-price-oracle)
+* [Price Oracle Documentation](../target-maintenance/overview.md#decentralized-price-oracle)
 
 #### **14. PINTO REQUIRES THAT THE GM FUNCTION IS CALLED AT THE TOP OF EACH HOUR ON BASE. FAILURE TO SUCCESSFULLY INCENTIVIZE THE CALLING OF THE GM FUNCTION COULD HAVE AN ADVERSE AFFECT ON THE PROTOCOL'S ABILITY TO OSCILLATE THE PINTO PRICE ABOVE AND BELOW ITS VALUE TARGET.** <a href="#gm-incentivization-risk" id="gm-incentivization-risk"></a>
 
@@ -116,7 +116,7 @@ Pinto and/or Soil are minted upon a successful call of the gm function. The prot
 
 More information:
 
-* [Sun Documentation](farm/sun.md)
+* [Sun Documentation](../farm/sun.md)
 
 #### **15. THE PINTO CONTRACTS ARE OPEN SOURCE. ANYONE CAN VIEW THE SOURCE CODE AND ATTEMPT TO FIND VULNERABILITIES.** <a href="#open-source-risk" id="open-source-risk"></a>
 
@@ -130,14 +130,14 @@ More information:
 
 Security is paramount to Pinto's success. The version of Pinto currently deployed on Base is heavily audited (via [Beanstalk](https://docs.bean.money/almanac/protocol/audits)), but there is no guarantee that Pinto is secure.
 
-In the future, it is anticipated that the code will be upgraded per the [Upgradability documentation](appendix/upgradability.md). There is always additional risk associated with implementing any new code.
+In the future, it is anticipated that the code will be upgraded per the [Upgradability documentation](../appendix/upgradability.md). There is always additional risk associated with implementing any new code.
 
 There is no guarantee that interacting with Pinto through the Pinto UI is secure. Any issues could lead to a loss of funds.
 
 More information:
 
 * [Beanstalk Audits](https://docs.bean.money/almanac/protocol/audits)
-* [Permitted Pinto Upgrades](appendix/upgradability.md)
+* [Permitted Pinto Upgrades](../appendix/upgradability.md)
 
 #### **17. THE PINTO USER INTERFACE CAN BE CENSORED AS IT IS HOSTED ON A CLOUD PROVIDER.** <a href="#ui-provider-risk" id="ui-provider-risk"></a>
 

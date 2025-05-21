@@ -18,7 +18,7 @@ Stablecoin out. Low volatility money in.
 
 Credit is the ideal tool to minimize volatility because it (1) enables using future value in the present, (2) is infinitely scalable, and (3) does not require a leviathan. During periods of excess supply (i.e., insufficient demand), Pinto uses credit to call forward future demand to the present. In practice, the protocol borrows Pinto from the market and then burns the borrowed excess Pinto to decrease the supply, thereby reducing downside volatility. During periods of excess demand (i.e., insufficient supply) the protocol mints new Pinto and pays back creditors with interest, thereby reducing upside volatility. The more debt Pinto repays with interest, the more (1) creditworthy it is perceived, (2) it can borrow at lower interest rates, and (3) it can sustainably reduce future downside volatility.
 
-Pinto is an experiment. Before interacting with Pinto, consider reading the [Disclosures](disclosures.md).
+Pinto is an experiment. Before interacting with Pinto, consider reading the [Disclosures](resources/terms.md).
 
 ### Links <a href="#links" id="links"></a>
 

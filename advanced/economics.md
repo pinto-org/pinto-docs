@@ -23,7 +23,7 @@ Pinto is credit based and only fails if it can no longer attract creditors. A re
 
 The protocol changes the [Temperature](../target-maintenance/temperature.md) to return the Pod Rate to the [optimal Pod Rate](../target-maintenance/overview.md#debt-level) while regularly crossing the Pinto price over its value peg. The protocol acts more aggressively when the Pod Rate is excessively high or low.
 
-The protocol never defaults on debt (although in the event of the protocol no longer attracting creditors, the loan maturity date would become infinitely far in the future—see [Disclosures](../disclosures.md)). The protocol is willing to issue Pods every Season.
+The protocol never defaults on debt (although in the event of the protocol no longer attracting creditors, the loan maturity date would become infinitely far in the future—see [Disclosures](../resources/terms.md)). The protocol is willing to issue Pods every Season.
 
 ### Marginal Rate of Substitution <a href="#marginal-rate-of-substitution" id="marginal-rate-of-substitution"></a>
 

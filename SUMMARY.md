@@ -77,5 +77,5 @@
 * [Contracts](resources/contracts.md)
 * [Glossary](resources/glossary.md)
 * [Audits](resources/audits.md)
-* [Disclosures](disclosures.md)
+* [Terms](resources/terms.md)
 * [Links](resources/links.md)
