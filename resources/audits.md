@@ -31,7 +31,7 @@ Pinto implemented minor changes on top of Beanstalk, as well as several incremen
 
 Helper functions added in PI-8 were audited by [Egis](https://www.egissec.com/) (report [here](https://arweave.net/W7cfGzLVsTAEb65AR4wYfFLOl5Nm3EMy0Sg3Dk7C7e0)).
 
-[Cantina](https://cantina.xyz/welcome) has audited all PIs since deployment (report [here](https://cantina.xyz/portfolio/f4a10034-7f7b-4c50-b33d-a7ac75b7eaef)).
+[Cantina](https://cantina.xyz/welcome) has audited up to PI-8 since deployment (report [here](https://cantina.xyz/portfolio/f4a10034-7f7b-4c50-b33d-a7ac75b7eaef)).
 
 ***
 
