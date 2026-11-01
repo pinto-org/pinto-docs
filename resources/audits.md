@@ -4,9 +4,9 @@
 
 <figure><img src="../.gitbook/assets/Group 2.png" alt=""><figcaption></figcaption></figure>
 
-To date, the Pinto ecosystem and its predecessor Beanstalk have undergone 20 audits. These audits include both full-protocol and audits of specific features. Additionally, the Pinto ecosystem is secured by a 1,200,000 Pinto bug bounty program through Immunefi.
+To date, the Pinto ecosystem and its predecessor Beanstalk have undergone 20 audits. These audits include both full-protocol and audits of specific features. Additionally, the Pinto ecosystem is secured by a bug bounty program through Sherlock with rewards up to 5,000 USDC.
 
-{% embed url="https://immunefi.com/bug-bounty/pinto/" %}
+{% embed url="https://audits.sherlock.xyz/bug-bounties/221" %}
 
 ## Inherited Security
 
@@ -31,7 +31,7 @@ Pinto implemented minor changes on top of Beanstalk, as well as several incremen
 
 Helper functions added in PI-8 were audited by [Egis](https://www.egissec.com/) (report [here](https://arweave.net/W7cfGzLVsTAEb65AR4wYfFLOl5Nm3EMy0Sg3Dk7C7e0)).
 
-[Cantina](https://cantina.xyz/welcome) has audited all PIs since deployment (report coming soon).
+[Cantina](https://cantina.xyz/welcome) has audited all PIs since deployment (report [here](https://cantina.xyz/portfolio/f4a10034-7f7b-4c50-b33d-a7ac75b7eaef)).
 
 ***
 
